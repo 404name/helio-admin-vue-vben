@@ -11,19 +11,19 @@
  */
 export interface SysParamInsertOrUpdateForm {
   /**
-   * 名称
-   */
-  title: string;
-
-  /**
    * 键名
    */
-  key: string;
+  name: string;
 
   /**
-   * 值
+   * 键值
    */
   value: string;
+
+  /**
+   * 描述
+   */
+  description: string;
 }
 
 /*

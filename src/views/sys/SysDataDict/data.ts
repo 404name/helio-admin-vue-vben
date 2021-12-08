@@ -26,7 +26,7 @@ export const columns: BasicColumn[] = [
     width: 80,
   },
   {
-    title: '参数描述',
+    title: '描述',
     dataIndex: 'description',
     width: 80,
   },
@@ -58,7 +58,7 @@ export const columns: BasicColumn[] = [
 export const queryFormSchema: FormSchema[] = [
   {
     field: 'description',
-    label: '参数描述',
+    label: '描述',
     component: 'Input',
     componentProps: {},
     colProps: { span: 8 },
@@ -87,7 +87,7 @@ export const retrieveDetailFormSchema: DescItem[] = [
   },
   {
     field: 'description',
-    label: '参数描述',
+    label: '描述',
   },
   {
     field: 'unit',
@@ -151,7 +151,7 @@ export const insertOrUpdateFormSchema: FormSchema[] = [
   },
   {
     field: 'description',
-    label: '参数描述',
+    label: '描述',
     required: true,
     component: 'Input',
     componentProps: {},

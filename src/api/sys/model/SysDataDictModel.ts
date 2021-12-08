@@ -27,7 +27,7 @@ export interface SysDataDictInsertOrUpdateForm {
    */
   value: string;
   /**
-   * 参数描述
+   * 描述
    */
   description: string;
   /**

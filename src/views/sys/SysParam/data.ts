@@ -7,11 +7,11 @@ import { DescItem } from '/@/components/Description';
 export const columns: BasicColumn[] = [
   {
     title: '键名',
-    dataIndex: 'key',
+    dataIndex: 'name',
     width: 80,
   },
   {
-    title: '值',
+    title: '键值',
     dataIndex: 'value',
     width: 60,
   },
@@ -27,7 +27,7 @@ export const columns: BasicColumn[] = [
  */
 export const queryFormSchema: FormSchema[] = [
   {
-    field: 'key',
+    field: 'name',
     label: '键名',
     component: 'Input',
     componentProps: {},
@@ -47,12 +47,12 @@ export const queryFormSchema: FormSchema[] = [
  */
 export const retrieveDetailFormSchema: DescItem[] = [
   {
-    field: 'key',
+    field: 'name',
     label: '键名',
   },
   {
     field: 'value',
-    label: '值',
+    label: '键值',
   },
   {
     field: 'description',
@@ -79,7 +79,7 @@ export const insertOrUpdateFormSchema: FormSchema[] = [
     show: false,
   },
   {
-    field: 'key',
+    field: 'name',
     label: '键名',
     required: true,
     component: 'Input',
@@ -87,7 +87,7 @@ export const insertOrUpdateFormSchema: FormSchema[] = [
   },
   {
     field: 'value',
-    label: '值',
+    label: '键值',
     required: true,
     component: 'Input',
     componentProps: {},
