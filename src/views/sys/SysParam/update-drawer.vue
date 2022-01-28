@@ -18,7 +18,7 @@
   import { createSysParamApi, updateSysParamApi } from '/@/api/sys/SysParamApi';
 
   export default defineComponent({
-    name: 'SysParamDrawer',
+    name: 'SysParamUpdateDrawer',
     components: { BasicDrawer, BasicForm },
     emits: ['success', 'register'],
     setup(_, { emit }) {

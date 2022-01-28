@@ -18,7 +18,7 @@
   import { createSysMenuApi, listSysMenuApi, updateSysMenuApi } from '/@/api/sys/SysMenuApi';
 
   export default defineComponent({
-    name: 'SysMenuDrawer',
+    name: 'SysMenuUpdateDrawer',
     components: { BasicDrawer, BasicForm },
     emits: ['success', 'register'],
     setup(_, { emit }) {

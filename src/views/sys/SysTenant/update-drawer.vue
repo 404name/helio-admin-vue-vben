@@ -18,7 +18,7 @@
   import { createSysTenantApi, updateSysTenantApi } from '/@/api/sys/SysTenantApi';
 
   export default defineComponent({
-    name: 'SysTenantDrawer',
+    name: 'SysTenantUpdateDrawer',
     components: { BasicDrawer, BasicForm },
     emits: ['success', 'register'],
     setup(_, { emit }) {

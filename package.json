@@ -1,9 +1,9 @@
 {
   "name": "helio-admin-vue-vben",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "author": {
     "name": "vben & Uncarbon",
-    "url": "https://github.com/anncwb & https://github.com/uncarbon97"
+    "url": "https://github.com/uncarbon97"
   },
   "scripts": {
     "bootstrap": "yarn install",

@@ -19,7 +19,7 @@
   import { listSysDeptApi } from '/@/api/sys/SysDeptApi';
 
   export default defineComponent({
-    name: 'SysUserDrawer',
+    name: 'SysUserUpdateDrawer',
     components: { BasicDrawer, BasicForm },
     emits: ['success', 'register'],
     setup(_, { emit }) {

@@ -29,7 +29,7 @@
   import { BasicTree, TreeItem } from '/@/components/Tree';
 
   export default defineComponent({
-    name: 'SysRoleDrawer',
+    name: 'SysRoleUpdateDrawer',
     components: { BasicDrawer, BasicForm, BasicTree },
     emits: ['success', 'register'],
     setup: function (_, { emit }) {

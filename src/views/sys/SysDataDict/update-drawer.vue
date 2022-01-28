@@ -18,7 +18,7 @@
   import { createSysDataDictApi, updateSysDataDictApi } from '/@/api/sys/SysDataDictApi';
 
   export default defineComponent({
-    name: 'SysDataDictDrawer',
+    name: 'SysDataDictUpdateDrawer',
     components: { BasicDrawer, BasicForm },
     emits: ['success', 'register'],
     setup(_, { emit }) {
